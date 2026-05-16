@@ -1,0 +1,28 @@
+name: IntifaceSync
+description: Syncs Funscripts with Buttplug.io / Intiface Central / TheHandy devices
+version: 1.0
+url: https://github.com/your-repo/IntifaceSync
+
+exec:
+  - python
+  - "{pluginDir}/IntifaceSync.py"
+
+ui:
+  javascript:
+    - IntifaceSync.js
+
+settings:
+  intifaceUrl:
+    displayName: Intiface Server URL
+    description: WebSocket URL of the Intiface Central Server
+    type: STRING
+
+tasks:
+  - name: Start Backend
+    description: Launch the IntifaceSync Python backend in the background
+    defaultArgs:
+      mode: startBackend
+  - name: Stop Backend
+    description: Stop the IntifaceSync Python backend
+    defaultArgs:
+      mode: stopBackend

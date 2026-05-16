@@ -1,0 +1,1011 @@
+2026-05-16 17:07:28,714 [INFO] No running backend found.
+2026-05-16 17:07:30,682 [INFO] Starting backend as daemon...
+17:07:30 [IntifaceSync] INFO Daemon started (PID 69168), log: /home/fussl/.stash/plugins/intiface-sync-plugin/IntifaceSync/intiface_sync.log
+17:07:30 [IntifaceSync] INFO Backend starting on ws://0.0.0.0:7880
+17:07:30 [IntifaceSync] INFO server listening on 0.0.0.0:7880
+17:07:30 [IntifaceSync] INFO Backend ready, listening on ws://0.0.0.0:7880
+2026-05-16 17:07:30,794 [INFO] Backend is up and listening on port 7880.
+17:07:30 [IntifaceSync] ERROR opening handshake failed
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+17:07:30 [IntifaceSync] ERROR opening handshake failed
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+17:07:39 [IntifaceSync] INFO connection open
+17:07:39 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 48656) (clients=1)
+17:07:39 [IntifaceSync] INFO Switching mode: intiface → handy_wifi
+17:07:41 [IntifaceSync] INFO connection open
+17:07:41 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 48660) (clients=2)
+17:08:10 [IntifaceSync] INFO Frontend disconnected (remaining clients=1)
+17:08:10 [IntifaceSync] INFO connection open
+17:08:10 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 37382) (clients=2)
+17:08:12 [IntifaceSync] INFO Handy connected.
+17:08:12 [IntifaceSync] INFO Starting tunnel for port 7881...
+17:08:14 [IntifaceSync] INFO Tunnel established: https://7272d53072c88b.lhr.life
+17:08:14 [IntifaceSync] INFO Found 7 funscript(s), default: TheTinyFeetTreat - 1st Cuck Session HD.funscript
+17:08:14 [IntifaceSync] INFO loadFile: path='/home/fussl/AppImages/OFS Tutorial/TheTinyFeetTreat - 1st Cuck Session HD.funscript' force=False invert=False
+17:08:14 [IntifaceSync] INFO Loading script: TheTinyFeetTreat - 1st Cuck Session HD.funscript (force=False, invert=False)
+17:08:14 [IntifaceSync] INFO Funscript HTTP server listening on port 7881 (/home/fussl/AppImages/OFS Tutorial/TheTinyFeetTreat - 1st Cuck Session HD.funscript)
+17:08:14 [IntifaceSync] INFO loadFile: path='/home/fussl/AppImages/OFS Tutorial/TheTinyFeetTreat - 1st Cuck Session HD.funscript' force=False invert=False
+17:08:14 [IntifaceSync] INFO Loading script: TheTinyFeetTreat - 1st Cuck Session HD.funscript (force=False, invert=False)
+17:08:17 [IntifaceSync] INFO HSSP setup OK: TheTinyFeetTreat - 1st Cuck Session HD.funscript (invert=False)
+17:08:17 [IntifaceSync] INFO HSSP setup OK: TheTinyFeetTreat - 1st Cuck Session HD.funscript (invert=False)
+2026-05-16 17:08:32,210 [INFO] Stop signal sent to PID 69168, waiting...
+17:08:32 [IntifaceSync] INFO server closing
+17:08:32 [IntifaceSync] INFO Frontend disconnected (remaining clients=1)
+17:08:32 [IntifaceSync] INFO Frontend disconnected (remaining clients=0)
+17:08:32 [IntifaceSync] INFO Tunnel stopped.
+17:08:32 [IntifaceSync] INFO server closed
+17:08:32 [IntifaceSync] INFO Shutdown signal received, cleaning up...
+17:08:32 [IntifaceSync] INFO Funscript HTTP server stopped.
+17:08:32 [IntifaceSync] INFO Server stopped.
+2026-05-16 17:08:32,511 [INFO] Backend (PID 69168) stopped cleanly.
+2026-05-16 17:08:33,211 [INFO] Starting backend as daemon...
+17:08:33 [IntifaceSync] INFO Daemon started (PID 69504), log: /home/fussl/.stash/plugins/intiface-sync-plugin/IntifaceSync/intiface_sync.log
+17:08:33 [IntifaceSync] DEBUG Using selector: EpollSelector
+17:08:33 [IntifaceSync] INFO Backend starting on ws://0.0.0.0:7880
+17:08:33 [IntifaceSync] INFO server listening on 0.0.0.0:7880
+17:08:33 [IntifaceSync] INFO Backend ready, listening on ws://0.0.0.0:7880
+17:08:33 [IntifaceSync] DEBUG = connection is CONNECTING
+2026-05-16 17:08:33,326 [INFO] Backend is up and listening on port 7880.
+17:08:33 [IntifaceSync] DEBUG = connection is CONNECTING
+17:08:33 [IntifaceSync] DEBUG > EOF
+17:08:33 [IntifaceSync] DEBUG < EOF
+17:08:33 [IntifaceSync] DEBUG = connection is CLOSED
+17:08:33 [IntifaceSync] DEBUG x half-closing TCP connection
+17:08:33 [IntifaceSync] DEBUG > EOF
+17:08:33 [IntifaceSync] DEBUG < EOF
+17:08:33 [IntifaceSync] DEBUG = connection is CLOSED
+17:08:33 [IntifaceSync] DEBUG x half-closing TCP connection
+17:08:33 [IntifaceSync] ERROR opening handshake failed
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+17:08:33 [IntifaceSync] ERROR opening handshake failed
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+17:08:35 [IntifaceSync] DEBUG = connection is CONNECTING
+17:08:35 [IntifaceSync] DEBUG < GET / HTTP/1.1
+17:08:35 [IntifaceSync] DEBUG < Host: localhost:7880
+17:08:35 [IntifaceSync] DEBUG < Connection: Upgrade
+17:08:35 [IntifaceSync] DEBUG < Pragma: no-cache
+17:08:35 [IntifaceSync] DEBUG < Cache-Control: no-cache
+17:08:35 [IntifaceSync] DEBUG < Upgrade: websocket
+17:08:35 [IntifaceSync] DEBUG < Origin: http://localhost:9999
+17:08:35 [IntifaceSync] DEBUG < Sec-WebSocket-Version: 13
+17:08:35 [IntifaceSync] DEBUG < User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
+17:08:35 [IntifaceSync] DEBUG < Accept-Encoding: gzip, deflate, br, zstd
+17:08:35 [IntifaceSync] DEBUG < Accept-Language: de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7
+17:08:35 [IntifaceSync] DEBUG < Cookie: csrftoken=8fKqZOxmTDt7sHLldZvyudnwroI1sAWY; sessionid=nkb23tjn2uxobqje6eogsk4zzxog0yen
+17:08:35 [IntifaceSync] DEBUG < Sec-GPC: 1
+17:08:35 [IntifaceSync] DEBUG < Sec-WebSocket-Key: E4d6NuoGMk5DsMMmZ6fSLQ==
+17:08:35 [IntifaceSync] DEBUG < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+17:08:35 [IntifaceSync] DEBUG > HTTP/1.1 101 Switching Protocols
+17:08:35 [IntifaceSync] DEBUG > Date: Sat, 16 May 2026 15:08:35 GMT
+17:08:35 [IntifaceSync] DEBUG > Upgrade: websocket
+17:08:35 [IntifaceSync] DEBUG > Connection: Upgrade
+17:08:35 [IntifaceSync] DEBUG > Sec-WebSocket-Accept: EmKc5y/phOl1eK7nBVb5TvQ28WQ=
+17:08:35 [IntifaceSync] DEBUG > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+17:08:35 [IntifaceSync] DEBUG > Server: Python/3.12 websockets/16.0
+17:08:35 [IntifaceSync] DEBUG = connection is OPEN
+17:08:35 [IntifaceSync] INFO connection open
+17:08:35 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 55258) (clients=1)
+17:08:35 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "intiface", "connect...ices": [], "error": ""}' [104 bytes]
+17:08:35 [IntifaceSync] DEBUG < TEXT '{"type":"setMode","mode":"handy_wifi"}' [38 bytes]
+17:08:35 [IntifaceSync] DEBUG Message: setMode – {'type': 'setMode', 'mode': 'handy_wifi'}
+17:08:35 [IntifaceSync] INFO Switching mode: intiface → handy_wifi
+17:08:35 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:35 [IntifaceSync] DEBUG < TEXT '{"type":"settings","offsetMs":0,"strokeMin":0,"...eMax":1,"invert":false}' [75 bytes]
+17:08:35 [IntifaceSync] DEBUG Message: settings – {'type': 'settings', 'offsetMs': 0, 'strokeMin': 0, 'strokeMax': 1, 'invert': False}
+17:08:35 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:35 [IntifaceSync] DEBUG = connection is CONNECTING
+17:08:35 [IntifaceSync] DEBUG < GET / HTTP/1.1
+17:08:35 [IntifaceSync] DEBUG < Host: localhost:7880
+17:08:35 [IntifaceSync] DEBUG < Connection: Upgrade
+17:08:35 [IntifaceSync] DEBUG < Pragma: no-cache
+17:08:35 [IntifaceSync] DEBUG < Cache-Control: no-cache
+17:08:35 [IntifaceSync] DEBUG < Upgrade: websocket
+17:08:35 [IntifaceSync] DEBUG < Origin: http://localhost:9999
+17:08:35 [IntifaceSync] DEBUG < Sec-WebSocket-Version: 13
+17:08:35 [IntifaceSync] DEBUG < User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
+17:08:35 [IntifaceSync] DEBUG < Accept-Encoding: gzip, deflate, br, zstd
+17:08:35 [IntifaceSync] DEBUG < Accept-Language: de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7
+17:08:35 [IntifaceSync] DEBUG < Cookie: csrftoken=8fKqZOxmTDt7sHLldZvyudnwroI1sAWY; sessionid=nkb23tjn2uxobqje6eogsk4zzxog0yen
+17:08:35 [IntifaceSync] DEBUG < Sec-GPC: 1
+17:08:35 [IntifaceSync] DEBUG < Sec-WebSocket-Key: KnFEU63eiJ2fWneInmmbOg==
+17:08:35 [IntifaceSync] DEBUG < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+17:08:35 [IntifaceSync] DEBUG > HTTP/1.1 101 Switching Protocols
+17:08:35 [IntifaceSync] DEBUG > Date: Sat, 16 May 2026 15:08:35 GMT
+17:08:35 [IntifaceSync] DEBUG > Upgrade: websocket
+17:08:35 [IntifaceSync] DEBUG > Connection: Upgrade
+17:08:35 [IntifaceSync] DEBUG > Sec-WebSocket-Accept: CGKD/bumcOogFbA9t67NZXRzS4o=
+17:08:35 [IntifaceSync] DEBUG > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+17:08:35 [IntifaceSync] DEBUG > Server: Python/3.12 websockets/16.0
+17:08:35 [IntifaceSync] DEBUG = connection is OPEN
+17:08:35 [IntifaceSync] INFO connection open
+17:08:35 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 55270) (clients=2)
+17:08:35 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:35 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:35 [IntifaceSync] DEBUG < TEXT '{"type":"setMode","mode":"handy_wifi"}' [38 bytes]
+17:08:35 [IntifaceSync] DEBUG Message: setMode – {'type': 'setMode', 'mode': 'handy_wifi'}
+17:08:35 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:35 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:35 [IntifaceSync] DEBUG < TEXT '{"type":"settings","offsetMs":0,"strokeMin":0,"...eMax":1,"invert":false}' [75 bytes]
+17:08:35 [IntifaceSync] DEBUG Message: settings – {'type': 'settings', 'offsetMs': 0, 'strokeMin': 0, 'strokeMax': 1, 'invert': False}
+17:08:35 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:35 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:38 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:38 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:38 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:38 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:39 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:39 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:39 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:39 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:41 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:41 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:41 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:41 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:42 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:42 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:42 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:42 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:44 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:44 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:44 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:44 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:45 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:45 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:45 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:45 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:47 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:47 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:47 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:47 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:48 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:48 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:48 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:48 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:50 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:50 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:50 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:50 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:51 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:51 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:51 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:51 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:53 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:53 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:53 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:53 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:54 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:54 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:54 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:54 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:55 [IntifaceSync] DEBUG > PING 1d 4d 34 d4 [binary, 4 bytes]
+17:08:55 [IntifaceSync] DEBUG % sent keepalive ping
+17:08:55 [IntifaceSync] DEBUG < PONG 1d 4d 34 d4 [binary, 4 bytes]
+17:08:55 [IntifaceSync] DEBUG % received keepalive pong
+17:08:55 [IntifaceSync] DEBUG > PING 4a 27 63 da [binary, 4 bytes]
+17:08:55 [IntifaceSync] DEBUG % sent keepalive ping
+17:08:55 [IntifaceSync] DEBUG < PONG 4a 27 63 da [binary, 4 bytes]
+17:08:55 [IntifaceSync] DEBUG % received keepalive pong
+17:08:56 [IntifaceSync] DEBUG < TEXT '{"type":"pause"}' [16 bytes]
+17:08:56 [IntifaceSync] DEBUG Message: pause – {'type': 'pause'}
+17:08:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:56 [IntifaceSync] DEBUG < TEXT '{"type":"pause"}' [16 bytes]
+17:08:56 [IntifaceSync] DEBUG Message: pause – {'type': 'pause'}
+17:08:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:56 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:56 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:57 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:57 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:57 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:57 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:59 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:08:59 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:08:59 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:08:59 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:00 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:00 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:00 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:00 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:02 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:02 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:02 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:02 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:03 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:03 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:03 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:03 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:05 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:05 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:05 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:05 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:06 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:06 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:06 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:06 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:08 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:08 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:08 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:08 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:09 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:09 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:09 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:09 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:11 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:11 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:11 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:11 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:12 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:12 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:12 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:12 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:14 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:14 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:14 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:14 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:15 [IntifaceSync] DEBUG > PING f4 eb 4c 29 [binary, 4 bytes]
+17:09:15 [IntifaceSync] DEBUG % sent keepalive ping
+17:09:15 [IntifaceSync] DEBUG < PONG f4 eb 4c 29 [binary, 4 bytes]
+17:09:15 [IntifaceSync] DEBUG % received keepalive pong
+17:09:15 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:15 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:15 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:15 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:15 [IntifaceSync] DEBUG > PING '\x1c\x05[u' [text, 4 bytes]
+17:09:15 [IntifaceSync] DEBUG % sent keepalive ping
+17:09:15 [IntifaceSync] DEBUG < PONG '\x1c\x05[u' [text, 4 bytes]
+17:09:15 [IntifaceSync] DEBUG % received keepalive pong
+17:09:17 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:17 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:17 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:17 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:18 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:18 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:18 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:18 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:20 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:20 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:20 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:20 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:21 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:21 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:21 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:21 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:23 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:23 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:23 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:23 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:24 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:24 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:24 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:24 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:26 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:26 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:26 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:26 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:27 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:27 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:27 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:27 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:29 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:29 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:29 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:29 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:30 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:30 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:30 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:30 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:32 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:32 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:32 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:32 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:35 [IntifaceSync] DEBUG > PING be 87 89 00 [binary, 4 bytes]
+17:09:35 [IntifaceSync] DEBUG % sent keepalive ping
+17:09:35 [IntifaceSync] DEBUG < PONG be 87 89 00 [binary, 4 bytes]
+17:09:35 [IntifaceSync] DEBUG % received keepalive pong
+17:09:35 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:35 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:35 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:35 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:35 [IntifaceSync] DEBUG > PING 8b 76 de 18 [binary, 4 bytes]
+17:09:35 [IntifaceSync] DEBUG % sent keepalive ping
+17:09:35 [IntifaceSync] DEBUG < PONG 8b 76 de 18 [binary, 4 bytes]
+17:09:35 [IntifaceSync] DEBUG % received keepalive pong
+17:09:38 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:38 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:38 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:38 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:41 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:41 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:41 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:41 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:44 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:44 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:44 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:44 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:47 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:47 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:47 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:47 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:50 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:50 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:50 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:50 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:53 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:53 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:53 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:53 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:55 [IntifaceSync] DEBUG > PING ba b6 7b 62 [binary, 4 bytes]
+17:09:55 [IntifaceSync] DEBUG % sent keepalive ping
+17:09:55 [IntifaceSync] DEBUG < PONG ba b6 7b 62 [binary, 4 bytes]
+17:09:55 [IntifaceSync] DEBUG % received keepalive pong
+17:09:55 [IntifaceSync] DEBUG > PING c4 c3 ba 8c [binary, 4 bytes]
+17:09:55 [IntifaceSync] DEBUG % sent keepalive ping
+17:09:55 [IntifaceSync] DEBUG < PONG c4 c3 ba 8c [binary, 4 bytes]
+17:09:55 [IntifaceSync] DEBUG % received keepalive pong
+17:09:56 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:56 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:56 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:09:56 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:09:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:09:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:10:15 [IntifaceSync] DEBUG > PING da 56 8d 5e [binary, 4 bytes]
+17:10:15 [IntifaceSync] DEBUG % sent keepalive ping
+17:10:15 [IntifaceSync] DEBUG < PONG da 56 8d 5e [binary, 4 bytes]
+17:10:15 [IntifaceSync] DEBUG % received keepalive pong
+17:10:15 [IntifaceSync] DEBUG > PING b1 05 4d 85 [binary, 4 bytes]
+17:10:15 [IntifaceSync] DEBUG % sent keepalive ping
+17:10:15 [IntifaceSync] DEBUG < PONG b1 05 4d 85 [binary, 4 bytes]
+17:10:15 [IntifaceSync] DEBUG % received keepalive pong
+17:10:35 [IntifaceSync] DEBUG > PING 3d 53 ee e7 [binary, 4 bytes]
+17:10:35 [IntifaceSync] DEBUG % sent keepalive ping
+17:10:35 [IntifaceSync] DEBUG < PONG 3d 53 ee e7 [binary, 4 bytes]
+17:10:35 [IntifaceSync] DEBUG % received keepalive pong
+17:10:35 [IntifaceSync] DEBUG > PING 97 05 3b 43 [binary, 4 bytes]
+17:10:35 [IntifaceSync] DEBUG % sent keepalive ping
+17:10:35 [IntifaceSync] DEBUG < PONG 97 05 3b 43 [binary, 4 bytes]
+17:10:35 [IntifaceSync] DEBUG % received keepalive pong
+17:10:55 [IntifaceSync] DEBUG > PING 58 3a be d0 [binary, 4 bytes]
+17:10:55 [IntifaceSync] DEBUG % sent keepalive ping
+17:10:55 [IntifaceSync] DEBUG < PONG 58 3a be d0 [binary, 4 bytes]
+17:10:55 [IntifaceSync] DEBUG % received keepalive pong
+17:10:55 [IntifaceSync] DEBUG > PING c5 ec 7e ee [binary, 4 bytes]
+17:10:55 [IntifaceSync] DEBUG % sent keepalive ping
+17:10:55 [IntifaceSync] DEBUG < PONG c5 ec 7e ee [binary, 4 bytes]
+17:10:55 [IntifaceSync] DEBUG % received keepalive pong
+17:10:56 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:10:56 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:10:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:10:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:10:56 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:10:56 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:10:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:10:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:11:15 [IntifaceSync] DEBUG > PING e7 2f 03 27 [binary, 4 bytes]
+17:11:15 [IntifaceSync] DEBUG % sent keepalive ping
+17:11:15 [IntifaceSync] DEBUG < PONG e7 2f 03 27 [binary, 4 bytes]
+17:11:15 [IntifaceSync] DEBUG % received keepalive pong
+17:11:15 [IntifaceSync] DEBUG > PING 49 92 df c3 [binary, 4 bytes]
+17:11:15 [IntifaceSync] DEBUG % sent keepalive ping
+17:11:15 [IntifaceSync] DEBUG < PONG 49 92 df c3 [binary, 4 bytes]
+17:11:15 [IntifaceSync] DEBUG % received keepalive pong
+17:11:35 [IntifaceSync] DEBUG > PING 0f df 36 f5 [binary, 4 bytes]
+17:11:35 [IntifaceSync] DEBUG % sent keepalive ping
+17:11:35 [IntifaceSync] DEBUG < PONG 0f df 36 f5 [binary, 4 bytes]
+17:11:35 [IntifaceSync] DEBUG % received keepalive pong
+17:11:35 [IntifaceSync] DEBUG > PING 13 ae f6 5f [binary, 4 bytes]
+17:11:35 [IntifaceSync] DEBUG % sent keepalive ping
+17:11:35 [IntifaceSync] DEBUG < PONG 13 ae f6 5f [binary, 4 bytes]
+17:11:35 [IntifaceSync] DEBUG % received keepalive pong
+17:11:55 [IntifaceSync] DEBUG > PING 98 50 81 75 [binary, 4 bytes]
+17:11:55 [IntifaceSync] DEBUG % sent keepalive ping
+17:11:55 [IntifaceSync] DEBUG < PONG 98 50 81 75 [binary, 4 bytes]
+17:11:55 [IntifaceSync] DEBUG % received keepalive pong
+17:11:55 [IntifaceSync] DEBUG > PING b7 1e 8f 68 [binary, 4 bytes]
+17:11:55 [IntifaceSync] DEBUG % sent keepalive ping
+17:11:55 [IntifaceSync] DEBUG < PONG b7 1e 8f 68 [binary, 4 bytes]
+17:11:55 [IntifaceSync] DEBUG % received keepalive pong
+17:11:56 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:11:56 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:11:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:11:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:11:56 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:11:56 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:11:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:11:56 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:12:15 [IntifaceSync] DEBUG > PING 8e ab 6b 59 [binary, 4 bytes]
+17:12:15 [IntifaceSync] DEBUG % sent keepalive ping
+17:12:15 [IntifaceSync] DEBUG < PONG 8e ab 6b 59 [binary, 4 bytes]
+17:12:15 [IntifaceSync] DEBUG % received keepalive pong
+17:12:15 [IntifaceSync] DEBUG > PING 19 15 e0 6d [binary, 4 bytes]
+17:12:15 [IntifaceSync] DEBUG % sent keepalive ping
+17:12:15 [IntifaceSync] DEBUG < PONG 19 15 e0 6d [binary, 4 bytes]
+17:12:15 [IntifaceSync] DEBUG % received keepalive pong
+17:12:35 [IntifaceSync] DEBUG > PING 0a 98 f3 c3 [binary, 4 bytes]
+17:12:35 [IntifaceSync] DEBUG % sent keepalive ping
+17:12:35 [IntifaceSync] DEBUG < PONG 0a 98 f3 c3 [binary, 4 bytes]
+17:12:35 [IntifaceSync] DEBUG % received keepalive pong
+17:12:35 [IntifaceSync] DEBUG > PING b1 b3 3c 18 [binary, 4 bytes]
+17:12:35 [IntifaceSync] DEBUG % sent keepalive ping
+17:12:35 [IntifaceSync] DEBUG < PONG b1 b3 3c 18 [binary, 4 bytes]
+17:12:35 [IntifaceSync] DEBUG % received keepalive pong
+17:12:44 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:12:44 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:12:44 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:12:44 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:12:44 [IntifaceSync] DEBUG < TEXT '{"type":"status"}' [17 bytes]
+17:12:44 [IntifaceSync] DEBUG Message: status – {'type': 'status'}
+17:12:44 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+17:12:44 [IntifaceSync] DEBUG > TEXT '{"type": "status", "mode": "handy_wifi", "conne...rl": null, "error": ""}' [110 bytes]
+2026-05-16 17:12:45,762 [INFO] TEST INFO MESSAGE
+2026-05-16 17:12:45,762 [WARNING] TEST WARNING MESSAGE
+2026-05-16 17:12:45,762 [INFO] Stop signal sent to PID 69504, waiting...
+17:12:45 [IntifaceSync] INFO server closing
+17:12:45 [IntifaceSync] DEBUG > CLOSE 1001 (going away) [2 bytes]
+17:12:45 [IntifaceSync] DEBUG = connection is CLOSING
+17:12:45 [IntifaceSync] DEBUG > CLOSE 1001 (going away) [2 bytes]
+17:12:45 [IntifaceSync] DEBUG = connection is CLOSING
+17:12:45 [IntifaceSync] DEBUG < CLOSE 1001 (going away) [2 bytes]
+17:12:45 [IntifaceSync] DEBUG > EOF
+17:12:45 [IntifaceSync] DEBUG x half-closing TCP connection
+17:12:45 [IntifaceSync] DEBUG < CLOSE 1001 (going away) [2 bytes]
+17:12:45 [IntifaceSync] DEBUG > EOF
+17:12:45 [IntifaceSync] DEBUG x half-closing TCP connection
+17:12:45 [IntifaceSync] DEBUG < EOF
+17:12:45 [IntifaceSync] DEBUG = connection is CLOSED
+17:12:45 [IntifaceSync] DEBUG < EOF
+17:12:45 [IntifaceSync] DEBUG = connection is CLOSED
+17:12:45 [IntifaceSync] INFO Frontend disconnected (remaining clients=1)
+17:12:45 [IntifaceSync] INFO Frontend disconnected (remaining clients=0)
+17:12:45 [IntifaceSync] DEBUG Message: pause – {'type': 'pause'}
+17:12:45 [IntifaceSync] DEBUG No clients left – device paused
+17:12:45 [IntifaceSync] INFO server closed
+17:12:45 [IntifaceSync] INFO Shutdown signal received, cleaning up...
+17:12:45 [IntifaceSync] INFO Server stopped.
+2026-05-16 17:12:45,862 [INFO] Backend (PID 69504) stopped cleanly.
+2026-05-16 17:12:46,365 [INFO] TEST INFO MESSAGE
+2026-05-16 17:12:46,365 [WARNING] TEST WARNING MESSAGE
+2026-05-16 17:12:46,365 [INFO] Starting backend as daemon...
+17:12:46 [IntifaceSync] INFO Daemon started (PID 70229), log: /home/fussl/.stash/plugins/intiface-sync-plugin/IntifaceSync/intiface_sync.log
+17:12:46 [IntifaceSync] INFO Backend starting on ws://0.0.0.0:7880
+17:12:46 [IntifaceSync] INFO server listening on 0.0.0.0:7880
+17:12:46 [IntifaceSync] INFO Backend ready, listening on ws://0.0.0.0:7880
+2026-05-16 17:12:46,476 [INFO] Backend is up and listening on port 7880.
+17:12:46 [IntifaceSync] ERROR opening handshake failed
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+17:12:46 [IntifaceSync] ERROR opening handshake failed
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+17:12:48 [IntifaceSync] INFO connection open
+17:12:48 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 38880) (clients=1)
+17:12:48 [IntifaceSync] INFO Switching mode: intiface → handy_wifi
+17:12:48 [IntifaceSync] INFO connection open
+17:12:48 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 38890) (clients=2)
+2026-05-16 17:15:46,950 [INFO] TEST INFO MESSAGE
+2026-05-16 17:15:46,950 [INFO] TEST INFO MESSAGE
+2026-05-16 17:15:46,950 [WARNING] TEST WARNING MESSAGE
+2026-05-16 17:15:46,950 [INFO] Stop signal sent to PID 70229, waiting...
+17:15:46 [IntifaceSync] INFO server closing
+17:15:46 [IntifaceSync] INFO Frontend disconnected (remaining clients=1)
+17:15:46 [IntifaceSync] INFO Frontend disconnected (remaining clients=0)
+17:15:46 [IntifaceSync] INFO server closed
+17:15:46 [IntifaceSync] INFO Shutdown signal received, cleaning up...
+17:15:46 [IntifaceSync] INFO Server stopped.
+2026-05-16 17:15:47,050 [INFO] Backend (PID 70229) stopped cleanly.
+2026-05-16 17:16:01,687 [INFO] TEST INFO MESSAGE
+2026-05-16 17:16:01,688 [INFO] TEST INFO MESSAGE
+2026-05-16 17:16:01,688 [WARNING] TEST WARNING MESSAGE
+2026-05-16 17:16:01,688 [INFO] Starting backend as daemon...
+17:16:01 [IntifaceSync] INFO Daemon started (PID 70755), log: /home/fussl/.stash/plugins/intiface-sync-plugin/IntifaceSync/intiface_sync.log
+17:16:01 [IntifaceSync] INFO Backend starting on ws://0.0.0.0:7880
+17:16:01 [IntifaceSync] INFO server listening on 0.0.0.0:7880
+17:16:01 [IntifaceSync] INFO Backend ready, listening on ws://0.0.0.0:7880
+2026-05-16 17:16:01,798 [INFO] Backend is up and listening on port 7880.
+17:16:01 [IntifaceSync] ERROR opening handshake failed
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+17:16:01 [IntifaceSync] ERROR opening handshake failed
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+17:16:07 [IntifaceSync] INFO connection open
+17:16:07 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 51158) (clients=1)
+17:16:07 [IntifaceSync] INFO Switching mode: intiface → handy_wifi
+17:16:10 [IntifaceSync] INFO connection open
+17:16:10 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 51544) (clients=2)
+17:21:43 [IntifaceSync] INFO Frontend disconnected (remaining clients=1)
+17:21:44 [IntifaceSync] INFO connection open
+17:21:44 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 51120) (clients=2)
+17:21:55 [IntifaceSync] INFO Frontend disconnected (remaining clients=1)
+17:21:56 [IntifaceSync] INFO connection open
+17:21:56 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 55634) (clients=2)
+2026-05-16 17:30:40,528 [INFO] Stop signal sent to PID 70755, waiting...
+17:30:40 [IntifaceSync] INFO server closing
+17:30:40 [IntifaceSync] INFO Frontend disconnected (remaining clients=1)
+17:30:40 [IntifaceSync] INFO Frontend disconnected (remaining clients=0)
+17:30:40 [IntifaceSync] INFO server closed
+17:30:40 [IntifaceSync] INFO Shutdown signal received, cleaning up...
+17:30:40 [IntifaceSync] INFO Server stopped.
+2026-05-16 17:30:40,628 [INFO] Backend (PID 70755) stopped cleanly.
+2026-05-16 17:30:42,013 [INFO] Starting backend as daemon...
+17:30:42 [IntifaceSync] INFO Daemon started (PID 73649), log: /home/fussl/.stash/plugins/intiface-sync-plugin/IntifaceSync/intiface_sync.log
+17:30:42 [IntifaceSync] INFO Backend starting on ws://0.0.0.0:7880
+17:30:42 [IntifaceSync] INFO server listening on 0.0.0.0:7880
+17:30:42 [IntifaceSync] INFO Backend ready, listening on ws://0.0.0.0:7880
+2026-05-16 17:30:42,125 [INFO] Backend is up and listening on port 7880.
+17:30:42 [IntifaceSync] ERROR opening handshake failed
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+17:30:42 [IntifaceSync] ERROR opening handshake failed
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+17:30:43 [IntifaceSync] INFO connection open
+17:30:43 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 54060) (clients=1)
+17:30:43 [IntifaceSync] INFO Switching mode: intiface → handy_wifi
+17:30:43 [IntifaceSync] INFO connection open
+17:30:43 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 54074) (clients=2)
+2026-05-16 17:44:41,982 [INFO] Stop signal sent to PID 73649, waiting...
+17:44:41 [IntifaceSync] INFO server closing
+17:44:41 [IntifaceSync] INFO Frontend disconnected (remaining clients=1)
+17:44:41 [IntifaceSync] INFO Frontend disconnected (remaining clients=0)
+17:44:41 [IntifaceSync] INFO server closed
+17:44:41 [IntifaceSync] INFO Shutdown signal received, cleaning up...
+17:44:41 [IntifaceSync] INFO Server stopped.
+2026-05-16 17:44:42,083 [INFO] Backend (PID 73649) stopped cleanly.
+2026-05-16 17:59:15,568 [INFO] No running backend found.
+2026-05-16 17:59:16,480 [INFO] Starting backend as daemon...
+17:59:16 [IntifaceSync] INFO Daemon started (PID 80170), log: /home/fussl/.stash/plugins/intiface-sync-plugin/IntifaceSync/intiface_sync.log
+17:59:16 [IntifaceSync] INFO Backend starting on ws://0.0.0.0:7880
+17:59:16 [IntifaceSync] INFO server listening on 0.0.0.0:7880
+17:59:16 [IntifaceSync] INFO Backend ready, listening on ws://0.0.0.0:7880
+2026-05-16 17:59:16,591 [INFO] Backend is up and listening on port 7880.
+17:59:16 [IntifaceSync] ERROR opening handshake failed
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+17:59:16 [IntifaceSync] ERROR opening handshake failed
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+17:59:24 [IntifaceSync] INFO connection open
+17:59:24 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 50108) (clients=1)
+17:59:24 [IntifaceSync] INFO Switching mode: intiface → handy_wifi
+17:59:32 [IntifaceSync] INFO connection open
+17:59:32 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 51766) (clients=2)
+18:03:22 [IntifaceSync] INFO Handy connected.
+18:03:22 [IntifaceSync] INFO Starting tunnel for port 7881...
+18:03:24 [IntifaceSync] INFO Tunnel established: https://6a2b0b5d0afb56.lhr.life
+18:03:24 [IntifaceSync] INFO Found 7 funscript(s), default: TheTinyFeetTreat - 1st Cuck Session HD.funscript
+18:03:24 [IntifaceSync] INFO loadFile: path='/home/fussl/AppImages/OFS Tutorial/TheTinyFeetTreat - 1st Cuck Session HD.funscript' force=False invert=False
+18:03:24 [IntifaceSync] INFO Loading script: TheTinyFeetTreat - 1st Cuck Session HD.funscript (force=False, invert=False)
+18:03:24 [IntifaceSync] INFO Funscript HTTP server listening on port 7881 (/home/fussl/AppImages/OFS Tutorial/TheTinyFeetTreat - 1st Cuck Session HD.funscript)
+18:03:24 [IntifaceSync] INFO loadFile: path='/home/fussl/AppImages/OFS Tutorial/TheTinyFeetTreat - 1st Cuck Session HD.funscript' force=False invert=False
+18:03:24 [IntifaceSync] INFO Loading script: TheTinyFeetTreat - 1st Cuck Session HD.funscript (force=False, invert=False)
+18:03:27 [IntifaceSync] INFO HSSP setup OK: TheTinyFeetTreat - 1st Cuck Session HD.funscript (invert=False)
+18:03:28 [IntifaceSync] INFO HSSP setup OK: TheTinyFeetTreat - 1st Cuck Session HD.funscript (invert=False)
+18:03:28 [IntifaceSync] INFO Tunnel stopped.
+18:03:28 [IntifaceSync] INFO Frontend disconnected (remaining clients=1)
+18:03:58 [IntifaceSync] INFO Handy connected.
+18:03:58 [IntifaceSync] INFO Starting tunnel for port 7881...
+18:03:59 [IntifaceSync] INFO Tunnel established: https://200f5b4bc77ff9.lhr.life
+18:04:03 [IntifaceSync] INFO HSSP setup OK: TheTinyFeetTreat - 1st Cuck Session HD.funscript (invert=False)
+18:04:19 [IntifaceSync] INFO Tunnel stopped.
+2026-05-16 18:10:33,112 [INFO] Stop signal sent to PID 80170, waiting...
+18:10:33 [IntifaceSync] INFO server closing
+18:10:33 [IntifaceSync] INFO Frontend disconnected (remaining clients=0)
+18:10:33 [IntifaceSync] INFO server closed
+18:10:33 [IntifaceSync] INFO Shutdown signal received, cleaning up...
+18:10:33 [IntifaceSync] INFO Funscript HTTP server stopped.
+18:10:33 [IntifaceSync] INFO Server stopped.
+2026-05-16 18:10:33,312 [INFO] Backend (PID 80170) stopped cleanly.
+2026-05-16 18:10:34,708 [INFO] Starting backend as daemon...
+18:10:34 [IntifaceSync] INFO Daemon started (PID 82342), log: /home/fussl/.stash/plugins/intiface-sync-plugin/IntifaceSync/intiface_sync.log
+18:10:34 [IntifaceSync] INFO Backend starting on ws://0.0.0.0:7880
+18:10:34 [IntifaceSync] INFO server listening on 0.0.0.0:7880
+18:10:34 [IntifaceSync] INFO Backend ready, listening on ws://0.0.0.0:7880
+2026-05-16 18:10:34,820 [INFO] Backend is up and listening on port 7880.
+18:10:34 [IntifaceSync] ERROR opening handshake failed
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+18:10:34 [IntifaceSync] ERROR opening handshake failed
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/home/fussl/.stash/venv/lib/python3.12/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+18:10:36 [IntifaceSync] INFO connection open
+18:10:36 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 57652) (clients=1)
+18:10:36 [IntifaceSync] INFO Switching mode: intiface → handy_wifi
+18:10:37 [IntifaceSync] INFO Frontend disconnected (remaining clients=0)
+18:10:38 [IntifaceSync] INFO connection open
+18:10:38 [IntifaceSync] INFO Frontend connected: ('127.0.0.1', 57664) (clients=1)
+18:10:41 [IntifaceSync] INFO Handy connected.
+18:10:41 [IntifaceSync] INFO Starting tunnel for port 7881...
+18:10:43 [IntifaceSync] INFO Tunnel established: https://f8689fdc707688.lhr.life
+18:10:43 [IntifaceSync] INFO Found 7 funscript(s), default: TheTinyFeetTreat - 1st Cuck Session HD.funscript
+18:10:43 [IntifaceSync] INFO loadFile: path='/home/fussl/AppImages/OFS Tutorial/TheTinyFeetTreat - 1st Cuck Session HD.funscript' force=False invert=False
+18:10:43 [IntifaceSync] INFO Loading script: TheTinyFeetTreat - 1st Cuck Session HD.funscript (force=False, invert=False)
+18:10:43 [IntifaceSync] INFO Funscript HTTP server listening on port 7881 (/home/fussl/AppImages/OFS Tutorial/TheTinyFeetTreat - 1st Cuck Session HD.funscript)
+18:10:46 [IntifaceSync] INFO HSSP setup OK: TheTinyFeetTreat - 1st Cuck Session HD.funscript (invert=False)
+18:10:50 [IntifaceSync] INFO Tunnel stopped.
