@@ -42,7 +42,7 @@ The backend will install these automatically on first run if missing:
 2. Click **Sources → Add Source**.
 3. Enter:
    - **Name:** `IntifaceSync`
-   - **URL:** `<your-repo-url-here>`
+   - **URL:** https://raw.githubusercontent.com/vib3coda/Stash-Intiface-Handy/main/index.yml
 4. Install **IntifaceSync** from the **Available** tab.
 5. Scroll to the plugin and enter your **Intiface WebSocket IP** if using Intiface mode.
 6. Open any scene that has a funscript — the toolbar appears and sync starts automatically.
@@ -169,7 +169,7 @@ MIT — see `LICENSE`.
 
 ## Author
 
-**vib3coda** — [repo URL]
+**vib3coda** — https://github.com/vib3coda/Stash-Intiface-Handy
 
 ---
 
