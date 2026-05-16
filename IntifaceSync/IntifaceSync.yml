@@ -1,7 +1,7 @@
 name: IntifaceSync
 description: Syncs Funscripts with Buttplug.io / Intiface Central / TheHandy devices
 version: 1.0
-url: https://github.com/your-repo/IntifaceSync
+url: https://github.com/vib3coda/Stash-Intiface-Handy
 
 exec:
   - python
